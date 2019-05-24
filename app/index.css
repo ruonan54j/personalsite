@@ -1,0 +1,527 @@
+/*safari issues fix*/
+.row:before, .row:after {
+    display: none !important;
+}
+
+
+body {
+    display: inline-block;
+    width: 100vw;
+    font-family: "Oxygen", "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif !important;
+ 
+  }
+ 
+  /* navbar customization */
+  
+  .navbar{
+      z-index: 1;
+      top: 0;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(255,255,255, 0.95);
+    height: 5em;
+  
+  }
+  .rj-logo{
+    font-weight: 570 !important;
+    font-family: 'Oxygen';
+    padding-left:10%;
+    font-size: 2.6em;
+    color: #FFD231;
+  }
+  
+  .rj-logo:hover{
+    text-decoration: none;
+    font-size: 2.9em;
+  }
+  
+  .nav-tab{
+    font-size: 1.1em;
+    color: #35353B;
+    padding-bottom: .2em;
+    padding-left: .2em;
+    padding-right: .2em;
+  }
+  
+  .nav-tab:hover{
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  
+  .nav-tab-u{
+    border-bottom: solid .3em #FFD231;
+  }
+  
+  /* home page */
+  
+  
+  .pic-div{
+    position: fixed;
+   /* background: url(./assets/Images/site12.jpg) no-repeat center;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+  }
+  
+  .h1-intro{
+    font-size: 3.4em;
+    padding-right: 5%;
+    border-bottom: #FFD231;
+    border-bottom: solid 2px #FFD231;
+  }
+  
+  .txt-intro{
+    width: 35%;
+    top: 20%;
+    left: 55%;
+    z-index: 0;
+    position: fixed;
+    color: white;
+  }
+  
+  .rotate-desc{
+    margin-top: 3%;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    top: 100%;
+    padding:0;
+  }
+  
+  .desc-container{
+    overflow:hidden;
+    height: 2.8em;
+    padding-top: 0;
+  }
+  
+
+  /* About page */
+  .about-div {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 100vh;
+  }
+  
+  .about-tit{
+    margin-top: 10%;
+    font-size: 2.5em;
+  
+  }
+  /* resume page */
+  .resume-container{
+    width: 100%;
+    background:white;
+    
+  }
+  .border-container{
+    height: 70vh;
+    margin-left: 35%;
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 1em;
+    margin-bottom: 20vh;
+   
+  }
+  .border-container-last{
+    height: 60vh;
+    margin-left: 35%;
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 1em;
+   
+  }
+
+  .bd-overlay{
+    margin-top: 10%;
+    overflow-y: scroll;
+    height: 60vh;
+
+  }
+
+  .yellow-opt{
+    background-color: #FFD231 !important;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+  .resume-title{
+    font-size: 2em;
+    font-weight: 600 !important;
+  }
+  
+  .resume-desc{
+    border-top: solid #FFD231 6px;
+    font-size: 1.2em;
+    padding-top: 1em;
+  }
+  
+  
+  .options-resume{
+    width:20%;
+    padding-top: 5%;
+    left: 15%;
+    position: fixed;
+  }
+  
+  .options-resume a{
+    color: white !important;
+  }
+
+  .options-resume h1{
+    font-size:1.3em;
+    color: white;
+    margin-right: 10%;
+    padding:3%;
+    background-color: rgb(151, 151, 151);
+  }
+  .opt-tab:hover{
+    background-color: #FFD231;
+    }
+
+  #hr-about{
+   margin-right: 10%;
+  }
+  
+  .blink{
+    color: #8e9299;
+  }
+  
+  
+  /*projects*/
+  .project-div{
+    position: absolute;
+     width: 100%;
+     z-index: -1;
+     margin-bottom: 10%;
+   
+   }
+  .proj-row{
+    height: 100vh;
+  }
+  
+  .project-row2{
+    
+    height: 70vh;
+    margin-top: 10%;
+    margin-left: 5% !important;
+    margin-right: 15% !important;
+    
+  }
+  
+  .subproject-div{
+    margin: 3% 15% 15% 15%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 2s ease;
+    
+  }
+  
+  .proj-ind{
+    display: block;
+    max-width:100%;
+    max-height:100%;
+    box-shadow: 10px 10px 20px#e0e1e2;
+    border-radius: .5em;
+  }
+  
+  .projThis{
+    margin: 10%;
+    font-size: 2em;
+  }
+  
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+  }
+  
+  .project-container{
+    margin: 12% 7% 0% 7%;
+    max-width: 100vw;
+  }
+  
+  .proj-h1{
+    text-align: center;
+  }
+  
+  .proj-desc{
+    display: none; 
+  }
+  
+  .proj-desc2{
+    margin-right: 15%;
+    font-size: 1.05em;
+    line-height: 1.6em;
+  }
+  
+  .subproject-div2 { 
+    margin-left: -20%;
+    margin-right: -10%;
+    
+  }
+  
+  .proj-title{
+    font-size: 1.8em;
+    letter-spacing: 0.03em;
+    font-weight: 600 !important;
+  }
+  
+  #mhealth2{
+    display: none;
+    
+  }
+  
+  .fade-div{
+    animation: fadeIn 1s;
+  }
+  #castle2{
+    display: none;
+  }
+  
+  #model2{
+    display: none;
+  }
+  
+  #front2{
+    display: none;
+  }
+  
+  #robo2{
+    display: none;
+  }
+  
+  .yellow-hr{
+    margin-right: 20%;
+    height:.2em;
+    border:none;
+    background:#FFD231;
+  }
+  
+  
+  
+  
+  #underline{
+    margin-top:2%;
+    background-color:#FFD231;
+    height: 3px;
+    width: 0;
+    margin-left: 15%;
+    margin-right: 20%;
+  }
+  
+  @keyframes line-yellow {
+    to{
+      width: 65%;
+    }
+  }
+  
+  .vectary-obj{
+    margin:5%;
+    background: #FFD231;
+    float: right;
+  }
+  
+  #desc-main{
+    margin-left: 15%;
+    width:75%;
+    font-size: 1.3em;
+    margin-top: 4%;
+    line-height: 1.9em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+  }
+  
+  
+  .contact-link {
+    margin: 10% 5% auto 0;
+  }
+  
+  @keyframes expand-text{
+    from{
+      height:0;
+    }
+    to{
+      height: 6em;
+    }
+  }
+  
+  #frame{
+    margin-top: 7%;
+    margin-left: 15%;
+  }
+  
+  
+  #mockup_main{
+    max-width: 50%;
+    margin-right: 5%;
+    float: right;
+    opacity: 0;
+    border-radius:.5em;
+  
+  }
+  
+  
+  .highlight-txt{
+    background: #FFD231;
+    color: white;
+    font-size:1.7em;
+    font-style: italic;
+    padding-left: .2em;
+    padding-right: .2em;
+  }
+  
+  .highlight-proj{
+    background: #FFD231;
+    color: white;
+    font-size:1.2em;
+    font-style: italic;
+    padding-left: .2em;
+    padding-right: .2em;
+  }
+  
+  .picture_about{
+    margin: 10% 10% auto 10%;
+    position: absolute;
+    object-fit: contain !important;
+  }
+  .picture{
+    max-width:100%;
+    max-height:100%;
+  }
+  
+  #about-txt{
+    margin-right: 15%;
+    font-size:0.45em;
+    line-height: 1.6em;
+  }
+  
+  .slide{
+    top:1.5em;
+    position: absolute;
+    left: 0;
+    background-color: #B8B3AF;
+    overflow: hidden;
+    text-align: center;
+    width: 0%;
+    height: 1.5em;
+    font-size: 2.5em;
+    transition: .5s ease;
+  }
+  
+  .option:hover .slide {
+    color: white;
+    width: 50%;
+    right: 0;
+  }
+  
+  .btn-row{
+    position: absolute;
+    top: 50vh;
+    width: 100%;
+  }
+  
+  .buttons{
+   background-color: #8e9299 !important;
+   color: white !important;
+   margin-right:10%;
+   margin-left: 3%;
+  }
+  
+  .buttons:hover{
+    background-color: rgb(1, 121, 219) !important;
+  }
+  
+  /*
+  .wrapper {
+    grid-gap: 1.5em;
+    display:grid;
+    width: 80vw;
+    height: 100vh; 
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  #castle1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  
+  
+  #robo1{
+    grid-column: 2/4;
+    grid-row: 3/5;
+  }
+  
+  #this1{
+    grid-column: 1/2;
+  }
+  
+  #front1{
+    grid-column:1/2;
+  }
+  */
+
+  html {
+    overflow-x: hidden !important;
+  }
+  
+  .intro{
+    height: 100vh;
+  }
+  
+  .clickable:hover{
+    animation: clicking .3s ease forwards;
+  }
+  
+  @keyframes clicking{
+    from{
+      opacity: 0.8;
+    }
+    to{
+      opacity: 1;
+      transform: scale(1.03, 1.03);
+    }
+  }
+  
+  
+  #content-layout{
+    
+    margin-bottom: 30%;
+  }
+
+  #content-layout .row{
+    margin: 5% 0 3% 0;
+    padding: 0;
+  }
+  
+  #content-layout h1{
+    margin-left: 15px;
+    font-weight: 600 !important;
+    letter-spacing: 0.05em;
+  }
+  
+  #model1{
+    margin-top: 18%;
+    margin-bottom: 0;
+  }
+
+  .card{
+      display: block !important;
+      border: none;
+  }
+
+  #projThis{
+      margin-top: 20%;
+  }

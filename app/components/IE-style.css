@@ -1,0 +1,50 @@
+/* v2 home pg */
+#logo-cont{
+    height: 5em;
+    top: 29vh;
+    left: 25vw;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 50%;
+    }
+    
+    #logo{
+      height: 50;
+      animation: fill 0.5s ease forwards .5s;
+      zoom:2;
+      
+    }
+    
+    @keyframes fill {
+      from{
+        fill: transparent;
+      }
+      to{
+        fill: black;
+      }
+    }
+    
+
+    #movetxt {
+      animation: move 1s infinite;
+       
+   }
+
+   #underline{
+    animation: line-yellow 1s ease forwards .5s;
+   }
+
+   #desc-part1{
+    height:0;
+    overflow:hidden;
+   animation: expand-text 1s ease forwards 1s;
+  }
+  #desc-part2{
+    height:0;
+    overflow:hidden;
+    animation: expand-text 1s ease forwards 1.5s;
+  }
+
+  #mockup_main{
+    animation: fadeIn 1s ease forwards 1s;
+  }
