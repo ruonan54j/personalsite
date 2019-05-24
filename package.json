@@ -4,14 +4,14 @@
   "version": "1.0.0",
   "engines": {
     "node": "0.10.x",
-    "npm": "1.3.x"
+    "npm": "6.9.0"
   },
   "main": "index.js",
   "scripts": {
     "create": "webpack",
     "dev": "webpack-dev-server --open",
     "start": "node server.js",
-    "heroku-postbuild": "webpack -p"
+    "postinstall": "webpack -p"
   },
   "keywords": [],
   "author": "",
