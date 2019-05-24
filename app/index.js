@@ -4,7 +4,7 @@ import 'core-js/fn/array/find';
 import 'core-js/fn/array/includes';
 import 'core-js/fn/number/is-nan';
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Home from './components/Home';
 import Resume from './components/Resume';
 
