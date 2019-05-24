@@ -1,7 +1,12 @@
 {
-  "name": "react_template",
+  
+  "name": "ruonanjia",
+  "description": "personal website",
   "version": "1.0.0",
-  "description": "",
+  "engines": {
+    "node": "^10.15.3"
+  },
+  
   "main": "index.js",
   "scripts": {
     "create": "webpack",
