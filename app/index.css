@@ -265,7 +265,7 @@ body {
   
   .proj-desc2{
     margin-right: 15%;
-    font-size: 1.2em;
+    font-size: 18px !important;
     line-height: 1.6em;
   }
   
@@ -276,7 +276,7 @@ body {
   }
   
   .proj-title{
-    font-size: 2em;
+    font-size: 28px;
     letter-spacing: 0.03em;
     font-weight: 600 !important;
   }
@@ -339,9 +339,9 @@ body {
   #desc-main{
     margin-left: 15%;
     width:75%;
-    font-size: 1.3em;
+    font-size: 18px;
     margin-top: 4%;
-    line-height: 1.9em;
+    line-height: 1.5;
     font-family: 'IBM Plex Sans', sans-serif;
     
   }
