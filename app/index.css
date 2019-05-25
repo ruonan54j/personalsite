@@ -339,9 +339,9 @@ body {
   #desc-main{
     margin-left: 15%;
     width:75%;
-    font-size: 18px;
+    font-size:1.3em;
     margin-top: 4%;
-    line-height: 1.5;
+    line-height: 1.5em;
     font-family: 'IBM Plex Sans', sans-serif;
     
   }
