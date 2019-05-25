@@ -23,6 +23,11 @@ body {
     height: 5em;
   
   }
+
+  #logo{
+    margin-left: 15% !important;
+  }
+
   .rj-logo{
     font-weight: 570 !important;
     font-family: 'Oxygen';
@@ -257,13 +262,10 @@ body {
     text-align: center;
   }
   
-  .proj-desc{
-    display: none; 
-  }
   
   .proj-desc2{
     margin-right: 15%;
-    font-size: 1.05em;
+    font-size: 1.2em;
     line-height: 1.6em;
   }
   
@@ -274,7 +276,7 @@ body {
   }
   
   .proj-title{
-    font-size: 1.8em;
+    font-size: 2em;
     letter-spacing: 0.03em;
     font-weight: 600 !important;
   }
