@@ -7,16 +7,16 @@ const Navbar = () => {
     return (
         
         <nav className="navbar row">
-            <div className="col-sm-6">
+            
+            <div className="col-sm-8 tab1">
                 <Link to="/" className="rj-logo" href="#">RJ</Link>
             </div>
             
             
-            <div className="col-sm-2"></div>
-            <div className="col-sm-2"> <a href="/" className={window.location.href.indexOf('resume') < 0 ? "nav-tab nav-tab-u": "nav-tab"}>Projects</a> </div>
+            <div className="col-sm-2 tab2"> <a href="/" className={window.location.href.indexOf('resume') < 0 ? "nav-tab nav-tab-u": "nav-tab"}>Projects</a> </div>
                
-            <div className="col-sm-2"> <Link to="/resume" className={window.location.href.indexOf('resume') > 0 ?"nav-tab nav-tab-u":"nav-tab"}>Resume</Link> </div>
-        
+            <div className="col-sm-2 tab3"> <Link to="/resume" className={window.location.href.indexOf('resume') > 0 ?"nav-tab nav-tab-u":"nav-tab"}>Resume</Link> </div>
+            
         </nav>
        
       

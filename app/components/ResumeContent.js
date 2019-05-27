@@ -59,7 +59,6 @@ class ResumeContent extends React.Component {
         else if (isInViewport(document.getElementById("involve"))){
             this.setState({section:5});
         }
-        console.log(this.state.section);
       }
 
       dirSection(el){

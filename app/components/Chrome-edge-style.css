@@ -16,6 +16,10 @@
       zoom:2;
       
     }
+
+    #logo-ie{
+      display:none;
+    }
     
     #logo path:nth-child(1){
       stroke-dasharray: 245;
@@ -84,13 +88,15 @@
 
    #desc-part1{
     height:0;
+    opacity: 0;
     overflow:hidden;
-   animation: expand-text 1s ease forwards 4.5s;
+   animation: expand-text 2s ease forwards 4.5s;
   }
   #desc-part2{
     height:0;
+    opacity: 0;
     overflow:hidden;
-    animation: expand-text 1s ease forwards 5.5s;
+    animation: expand-text 2s ease forwards 5.5s;
   }
 
   #mockup_main{

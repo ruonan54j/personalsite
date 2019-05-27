@@ -1,4 +1,208 @@
 /*safari issues fix*/
+@media only screen and (max-width: 500px) {
+
+    #logo-cont{
+      width: 100% !important;
+      animation: movex 1s ease forwards 4s !important;
+    }
+
+    .intro{
+      margin-bottom: 10vh;
+      display: inline-block;
+    }
+
+    #mockup_main{
+      text-align: center;
+      margin-top: 85vh;
+      max-width: 95% !important;
+      opacity: 0;
+      border-radius:.5em;
+    }
+
+    #desc-main{
+      font-size: 1em !important;
+    }
+
+    @keyframes movex {
+      to{
+        top: 30vh;
+        
+      }
+    }
+
+    .tab1{
+      width: 20vw !important;
+    }
+
+    .tab2{
+      width: 15vw !important;
+    }
+    .tab3{
+      margin-left: 2vw !important;
+      margin-right: 4vw !important;
+      width: 15vw !important;
+    }
+
+    #content-layout{
+      margin-top: 45vh;
+    }
+
+    #content-layout h1{
+      font-size: 1.8em;
+      margin-left: 15%;
+    }
+
+    .card{
+      margin: 5% !important;
+    }
+
+    #proj-slide{
+      margin-top: 50vh;
+    }
+
+    .proj-desc2{ 
+      font-size: 1em !important;
+      width: 80vw !important;
+      display: block;
+    }
+
+    .btn-row{
+      margin: 0% !important;
+    }
+
+    .buttons{
+      margin-left: 5%;
+      margin-bottom: 25vh;
+      margin-top: 45vh;
+      font-size: .7em;
+      margin-right:3% !important;
+      margin-left: 3%;
+     }
+
+     .project-row2{
+       display: block;
+     }
+
+     .subproject-div2{
+       margin:0 !important;
+     }
+     
+
+     /*resume*/
+     .resume-container{
+       margin-top: 20vh;
+     }
+
+     .border-container{
+       height:auto !important;
+       padding: 0 !important;
+       margin-bottom: 30vh !important;
+     }
+
+     .options-resume{
+       left: 5% !important;
+       width: 30% !important;
+       padding: 0 !important;
+     }
+
+     .options-resume h1{
+       font-size: .8em !important;
+     }
+
+     .resume-title{
+       font-size: 1.2em !important;
+     }
+
+     .resume-desc{
+      border-top: solid #FFD231 3px !important;
+     }
+
+     .resume-desc p{
+       font-size: .8em !important;
+     }
+
+     #projThis{
+       display: none;
+     }
+
+     #projThis2{
+       display: block;
+     }
+
+}
+
+/*end mobile spec styling*/
+
+@media screen and (min-width:500px) and (max-width:1000px){
+  #desc-main{
+    font-size:1.1em !important;
+  }
+
+  .options-resume h1{
+    font-size: 1.1em !important; 
+  }
+
+  #mockup-main{
+    margin-top: 20% !important;
+  }
+
+  .proj-title{
+    font-size: 1.2em !important;
+  }
+
+  .proj-desc2{ 
+    font-size: .95em !important;
+  }
+
+  .projThis{
+    font-size: 1.5em !important;
+  }
+
+  .buttons{
+    font-size: .9em !important;
+  }
+}
+
+
+@media screen and (min-width:1300px){
+
+  .navbar a{
+    font-size: 1.6em !important;
+  }
+  
+  .resume-desc{
+    font-size: 1.6em !important;
+  }
+
+  .resume-title{
+    font-size: 2.5em !important;
+  }
+
+  #desc-main{
+    font-size: 1.6em !important;
+  }
+
+  .proj-title{
+    font-size: 2.5em !important;
+  }
+
+  .proj-desc2{
+    font-size: 1.25em !important;
+  }
+
+  .buttons{
+    font-size: 1.25em !important;
+  }
+}
+
+
+
+#projThis2{
+  display: none;
+}
+
+
+
 .row:before, .row:after {
     display: none !important;
 }
@@ -128,13 +332,12 @@ body {
     height: 70vh;
     margin-left: 35%;
     width: 50%;
-    padding-top: 5%;
     padding-left: 1em;
-    margin-bottom: 20vh;
+    margin-bottom: 30vh;
    
   }
   .border-container-last{
-    height: 60vh;
+    height: 65vh;
     margin-left: 35%;
     width: 50%;
     padding-top: 5%;
@@ -143,7 +346,7 @@ body {
   }
 
   .bd-overlay{
-    margin-top: 10%;
+    margin-top: 15%;
     overflow-y: scroll;
     height: 60vh;
 
@@ -157,10 +360,7 @@ body {
     width: 0px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
-/* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
-}
+
 
   .resume-title{
     font-size: 2em;
@@ -175,9 +375,9 @@ body {
   
   
   .options-resume{
-    width:20%;
-    padding-top: 5%;
-    left: 15%;
+    width:30%;
+    padding-left: 5%;
+    left: 5%;
     position: fixed;
   }
   
@@ -190,8 +390,13 @@ body {
     color: white;
     margin-right: 10%;
     padding:3%;
+    
+  }
+
+  .opt-tab{
     background-color: rgb(151, 151, 151);
   }
+
   .opt-tab:hover{
     background-color: #FFD231;
     }
@@ -210,7 +415,7 @@ body {
     position: absolute;
      width: 100%;
      z-index: -1;
-     margin-bottom: 10%;
+     margin-bottom: 0;
    
    }
   .proj-row{
@@ -221,8 +426,7 @@ body {
     
     height: 70vh;
     margin-top: 10%;
-    margin-left: 5% !important;
-    margin-right: 15% !important;
+    margin-right: 5% !important;
     
   }
   
@@ -265,7 +469,7 @@ body {
   
   .proj-desc2{
     margin-right: 15%;
-    font-size: 18px !important;
+    font-size: 1.1em;
     line-height: 1.6em;
   }
   
@@ -276,7 +480,7 @@ body {
   }
   
   .proj-title{
-    font-size: 28px;
+    font-size: 1.6em;
     letter-spacing: 0.03em;
     font-weight: 600 !important;
   }
@@ -313,8 +517,6 @@ body {
   }
   
   
-  
-  
   #underline{
     margin-top:2%;
     background-color:#FFD231;
@@ -341,7 +543,7 @@ body {
     width:75%;
     font-size:1.3em;
     margin-top: 4%;
-    line-height: 2em;
+    line-height: 1.5em;
     font-family: 'IBM Plex Sans', sans-serif;
     
   }
@@ -353,10 +555,12 @@ body {
   
   @keyframes expand-text{
     from{
+      opacity: 0;
       height:0;
     }
     to{
-      height: 6em;
+      opacity: 1;
+      height: auto;
     }
   }
   
@@ -372,14 +576,13 @@ body {
     float: right;
     opacity: 0;
     border-radius:.5em;
-  
   }
   
   
   .highlight-txt{
     background: #FFD231;
     color: white;
-    font-size:1.7em;
+    font-size:1.5em;
     font-style: italic;
     padding-left: .2em;
     padding-right: .2em;

@@ -59,7 +59,6 @@ class ProjectContent extends React.Component {
           this.setState({content : 1});
           document.getElementById("content-layout").style.display='block';
         }
-        console.log('Click happened'+id1);
         document.getElementById(id2).style.display = 'none';
         document.getElementById(id1).style.display = 'flex';
         AOS.init({
@@ -196,6 +195,8 @@ class ProjectContent extends React.Component {
         <path d="M204.733 36.08H185.277L181.693 46H175.549L191.677 1.64801H198.397L214.461 46H208.317L204.733 36.08ZM203.133 31.536L195.005 8.81601L186.877 31.536H203.133Z" stroke="black"/>
         <path d="M256.562 46H250.738L227.314 10.48V46H221.49V1.32801H227.314L250.738 36.784V1.32801H256.562V46Z" stroke="black"/>
         </svg>
+
+        <h1 id="logo-ie">RUONAN</h1>
         <div id="underline"></div>
         <div id ="desc-main">
           <div id="desc-part1">
@@ -204,7 +205,7 @@ class ProjectContent extends React.Component {
           <br/>
           <div id="desc-part2">
           I have a passion for building things and want to drive social change through technology.
-          <br/>
+          <br/><br/>
           <a href="mailto:ruonanjia54@gmail.com" className="contact-link">Email</a>
           <a href="https://github.com/ruonan54j" target="blank" className="contact-link">Github</a> 
           <a href="https://www.linkedin.com/in/ruonan54j/" target="blank" className="contact-link">LinkedIn</a>
@@ -220,6 +221,8 @@ class ProjectContent extends React.Component {
      
 
         </div>
+
+        <div id="proj-slide">
     
         <div id="castle2" className="row project-row2 fade-div">
             <div className="col proj-desc2">
@@ -330,6 +333,9 @@ class ProjectContent extends React.Component {
             </div>
             
         </div>
+        </div>
+
+
         <div id="content-layout">
         <h1>Recent Projects</h1>
         <div className="row">
@@ -378,6 +384,9 @@ class ProjectContent extends React.Component {
             <img className="proj-ind clickable" onClick={() => this.switchView("robo2", "robo1")} src={require("../../assets/Images/robocop.jpg")}/>
         </div>
         </div>
+        </div>
+        <div className="card">
+        <h1 className="projThis" id="projThis2">This website! <br></br> Coded in React</h1>
         </div>
       </div>
     </div>

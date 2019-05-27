@@ -9,10 +9,13 @@
     }
     
     #logo{
-      height: 50;
-      animation: fill 0.5s ease forwards .5s;
-      zoom:2;
-      
+      display: none;
+    }
+
+    #logo-ie{
+      margin-left: 15%;
+      font-size: 5em;
+      font-weight: 700;
     }
     
     @keyframes fill {
@@ -37,14 +40,20 @@
    #desc-part1{
     height:0;
     overflow:hidden;
-   animation: expand-text 1s ease forwards 1s;
+   animation: expand-txt2 1s ease forwards 1s;
   }
   #desc-part2{
     height:0;
     overflow:hidden;
-    animation: expand-text 1s ease forwards 1.5s;
+    animation: expand-txt2 1s ease forwards 1.5s;
   }
 
   #mockup_main{
     animation: fadeIn 1s ease forwards 1s;
+  }
+
+  @keyframes expand-txt2{
+    to{
+      height: 6em;
+    }
   }
