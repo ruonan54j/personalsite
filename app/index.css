@@ -556,7 +556,7 @@ body {
   @keyframes expand-text{
     from{
       opacity: 0;
-      height:0;
+      height:1;
     }
     to{
       opacity: 1;
