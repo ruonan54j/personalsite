@@ -90,7 +90,7 @@
 
      /*resume*/
      .resume-container{
-       margin-top: 20vh;
+       margin-top: 15vh;
      }
 
      .border-container{
@@ -98,6 +98,8 @@
        padding: 0 !important;
        margin-bottom: 30vh !important;
      }
+    
+     
 
      .options-resume{
        left: 5% !important;
@@ -336,8 +338,10 @@ body {
     margin-bottom: 30vh;
    
   }
+
+  
   .border-container-last{
-    height: 65vh;
+    height: 75vh;
     margin-left: 35%;
     width: 50%;
     padding-top: 5%;
@@ -348,7 +352,7 @@ body {
   .bd-overlay{
     margin-top: 15%;
     overflow-y: scroll;
-    height: 60vh;
+    height: 70vh;
 
   }
 
@@ -678,6 +682,12 @@ body {
   }
   */
 
+  .part2-res{
+    margin-bottom: 2vh;
+  }
+
+
+
   html {
     overflow-x: hidden !important;
   }
@@ -700,6 +710,10 @@ body {
     }
   }
   
+  .less-margin{
+    height: auto !important;
+    margin-bottom: 12vh !important;
+  }
   
   #content-layout{
     

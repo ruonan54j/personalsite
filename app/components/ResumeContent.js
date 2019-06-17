@@ -118,12 +118,12 @@ class ResumeContent extends React.Component {
                 </div>
             </div>
 
-            <div className="border-container" id="exp">
+            <div className="border-container less-margin" id="exp">
                 <h1 className="resume-title">Castle Lab | Full Stack Developer</h1>
                 <div className="resume-desc">
                 <p>Develop responsive and dynamic websites for realtors <br></br> <br></br>  
-                    Built a full stack interface for realtors to manage their listings on (integrated with Webflow) <br></br> <br></br> 
-                    Currently, startup is expanding to take on bigger projects from a broader range of clients
+                    Built a web based platform for realtors to manage their listings on (integrated with Webflow API) <br></br> <br></br> 
+                    Manage database and web hosting accross multiple platforms
                     </p>
                 </div>
             </div>
@@ -140,7 +140,7 @@ class ResumeContent extends React.Component {
                 </div>
             </div>
 
-            <div className="border-container" id="teams">
+            <div className="border-container less-margin" id="teams">
                 <h1 className="resume-title">UBC AeroDesign | Avionics Team</h1>
                 <div className="resume-desc">
                 <p>Coded scrolling graph using Processing to display real time data recorded by a small model aircraft</p>

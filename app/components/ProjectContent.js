@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
-const mHealthImgs = ['mhealth_mockup1.jpg','dashboard_mhealth.JPG','survey_mhealth.JPG','goals_mhealth.JPG','graph_mhealth.JPG','mhealth2.JPG'];
+const mHealthImgs = ['mhealth_mockup1.jpg','dashboard_mhealth.jpg','survey_mhealth.jpg','goals_mhealth.jpg','graph_mhealth.jpg','mhealth2.jpg'];
 const mHealthDesc =["mHealth is a dashboard for tracking your mental health. This project was built during a 24 hour hackathon. <span class='highlight-proj'> Test out the app</span> <a href='https://mental-health-tracker.herokuapp.com/' target='blank'>here</a>",
   "This web app was built using <span class='highlight-proj'>PHP and vanilla JS.</span> It implements ClearDB (SQL) and consists of the following dynamic components:",
 "1) User friendly survey to regularly assess mood and lifestyle",
@@ -10,21 +10,21 @@ const mHealthDesc =["mHealth is a dashboard for tracking your mental health. Thi
 "3) Visual graphs to see your progress",
 "4) Daily inspirational quotes from an online API"];
 
-const castleImgs = ['castle mockup.jpg','ex_listings.JPG', 'mlsid.JPG', 'manual.JPG', 'active.JPG', 'edit.JPG'];
+const castleImgs = ['castle mockup.jpg','ex_listings.jpg', 'mlsid.jpg', 'manual.jpg', 'active.jpg', 'edit.jpg'];
 const castleDesc=["Currently a full stack developer and Castle Lab. We specialize in creating design driven dynamic websites for clients accross all industry.<span class='highlight-proj'>Visit our website</span> <a href='https://www.castlelab.ca/' target='blank'> here</a>","My most recent project has been to create a interface for realtor clients to manage their listings on. It is <span class='highlight-proj'>integrated with the Webflow API</span> to remotely manage content on a custom interface.",
 "This application allows: <br>Upload by MLSID: pulls listing directly from the web to client's website",
 "Manual Uploads: uploads a custom listing to website with multiple pictures",
 "View all active/sold listings",
 "Edit listing feature for slick user experience"];
 
-const modelImgs =['rocket.jpg', 'claw1print.JPG', 'claw1.JPG','claw2print.jpg', 'claw2.JPG'];
+const modelImgs =['rocket.jpg', 'claw1print.jpg', 'claw1.jpg','claw2print.jpg', 'claw2.jpg'];
 const modelDesc=["Besides programming, I also have a passion for 3D modelling. I was part of the <span class='highlight-proj' >UBC Rocket team</span> in first year University and worked on a subteam to design the nosecone. We even added a mount for a Go Pro to film the launch!", "<span class='highlight-proj'>Autonomous claw competition:</span> <br> Built arduino controlled claws with a team for a competition.", "We had 2 designs which I modelled and assembled on Solidworks.", "I don't have pictures of the claws themselves but I did keep the engineer drawings!", "Properly labelled with dimensions and all the right angles.. ( unfortunately, dimensions don't show up because this image was too small )"];
 
-const roboImgs=["robocop.jpg", 'roboin.JPG','hrobo.JPG','srobo.JPG'];
+const roboImgs=["robocop.jpg", 'roboin.jpg','hrobo.jpg','srobo.jpg'];
 const roboDesc=["For a project course, my team built a <span class='highlight-proj' >home security patrol bot.</span> RoboCop takes in a set of coordinates and patrols the given path.", "RoboCop connects to wifi through a Raspberry Pi and recieves coordinates through a web interface. It takes pictures of intruders on command and sends them to your smartphone", 
 "<span class='highlight-proj' >This is the hardware overview of the project: </span> <br> On the hardware side, I worked on the stepper motor library and getting the camera working with the Raspberry Pi. I also hooked up speakers to the Raspberry Pi but it wasn't implemented in the final product","<span class='highlight-proj' >This is the software overview of the project:</span> <br/> I worked on the front end web inteface to create an interactive graph where users can plot coordinates"];
 
-const frontendImgs=['front-end2.jpg','calc.JPG', 'simonGame.JPG', 'tictac.png'];
+const frontendImgs=['front-end2.jpg','calc.jpg', 'simonGame.jpg', 'tictac.png'];
 const frontendDesc=["Here are some early front end projects I made when I first started coding! This is a location based <a href='https://codepen.io/rjiaaa/full/BbeWxr' target='blank'>weather app</a>",
 "Classic <a href='https://codepen.io/rjiaaa/full/PLvpaE' target='blank'>Calculator</a> programming challenge", "Retro multi-mode <a href='https://codepen.io/rjiaaa/full/JzqWBX' target='blank'>Simon Game</a>", 
 "Non-responsibe but pure logic based <a href='https://codepen.io/rjiaaa/full/zbQZjY' target='blank'>Tic Tac Toe Game</a>. (Only one way to win!)"];
@@ -200,7 +200,7 @@ class ProjectContent extends React.Component {
         <div id="underline"></div>
         <div id ="desc-main">
           <div id="desc-part1">
-          Hi, nice to meet you! I am a <span className="highlight-txt">programmer & entrepreneur</span> currently living in Vancouver.
+          Hi, nice to meet you! I am a <span className="highlight-txt">full stack developer</span> currently living in Vancouver.
           </div>
           <br/>
           <div id="desc-part2">
