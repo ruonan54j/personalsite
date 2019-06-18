@@ -2,15 +2,6 @@ import React, { Component } from 'react';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
-
-function importAll(r) {
-  let images = {};
-  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-  return images;
-}
-
-const images = importAll(require.context('../../assets/Images/', false, /\.(png|jpe?g|svg)$/));
-
 const mHealthImgs = ['mhealth_mockup1.jpg','dashboard_mhealth.jpg','survey_mhealth.jpg','goals_mhealth.jpg','graph_mhealth.jpg','mhealth2.jpg'];
 const mHealthDesc =["mHealth is a dashboard for tracking your mental health. This project was built during a 24 hour hackathon. <span class='highlight-proj'> Test out the app</span> <a href='https://mental-health-tracker.herokuapp.com/' target='blank'>here</a>",
   "This web app was built using <span class='highlight-proj'>PHP and vanilla JS.</span> It implements ClearDB (SQL) and consists of the following dynamic components:",
@@ -248,7 +239,7 @@ class ProjectContent extends React.Component {
             
             
             <div className="col subproject-div2" data-aos="fade-up"> 
-            <img id = "castle-img" className="proj-ind"  src={require('../../assets/Images/'+ castleImgs[this.state.slideC])} />
+            <img id = "castle-img" className="proj-ind"  src={require('./'+ castleImgs[this.state.slideC])} />
             
             </div>
             
@@ -274,7 +265,7 @@ class ProjectContent extends React.Component {
             
             
             <div className="col subproject-div2" data-aos="fade-up"> 
-            <img id = "mhealth-img" className="proj-ind" src={require('../../assets/Images/'+ mHealthImgs[this.state.slideH])}/>
+            <img id = "mhealth-img" className="proj-ind" src={require('./'+ mHealthImgs[this.state.slideH])}/>
             
             </div>
         </div>
@@ -295,7 +286,7 @@ class ProjectContent extends React.Component {
             
             
             <div className="col subproject-div2" data-aos="fade-up"> 
-            <img id = "model-img" className="proj-ind"  src={require('../../assets/Images/'+ modelImgs[this.state.slideM])}/>
+            <img id = "model-img" className="proj-ind"  src={require('./'+ modelImgs[this.state.slideM])}/>
             
             </div>
             
@@ -316,7 +307,7 @@ class ProjectContent extends React.Component {
         
         
         <div className="col subproject-div2" data-aos="fade-up"> 
-        <img id = "robo-img" className="proj-ind"  src={require('../../assets/Images/'+ roboImgs[this.state.slideR])}/>
+        <img id = "robo-img" className="proj-ind"  src={require('./'+ roboImgs[this.state.slideR])}/>
         </div>
         
         </div>
@@ -338,7 +329,7 @@ class ProjectContent extends React.Component {
             
             
             <div className="col subproject-div2" data-aos="fade-up"> 
-            <img id = "front-img" className="proj-ind"  src={require('../../assets/Images/'+ frontendImgs[this.state.slideF])} />
+            <img id = "front-img" className="proj-ind"  src={require('./'+ frontendImgs[this.state.slideF])} />
             </div>
             
         </div>
