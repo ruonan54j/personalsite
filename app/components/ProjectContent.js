@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
+
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+
+const images = importAll(require.context('../../assets/Images/', false, /\.(png|jpe?g|svg)$/));
+
 const mHealthImgs = ['mhealth_mockup1.jpg','dashboard_mhealth.jpg','survey_mhealth.jpg','goals_mhealth.jpg','graph_mhealth.jpg','mhealth2.jpg'];
 const mHealthDesc =["mHealth is a dashboard for tracking your mental health. This project was built during a 24 hour hackathon. <span class='highlight-proj'> Test out the app</span> <a href='https://mental-health-tracker.herokuapp.com/' target='blank'>here</a>",
   "This web app was built using <span class='highlight-proj'>PHP and vanilla JS.</span> It implements ClearDB (SQL) and consists of the following dynamic components:",
