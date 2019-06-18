@@ -230,11 +230,7 @@ class ProjectContent extends React.Component {
             <hr className="yellow-hr"/>
             <p className="proj-desc2" id="castle-desc" dangerouslySetInnerHTML={{__html:castleDesc[this.state.slideC]}}>
             </p>
-            <div className="row btn-row">
-            <button className="btn buttons" onClick={() => this.switchView("castle1", "castle2")}>close</button>
-                <button className="btn buttons" onClick={() => this.prevSlide("slideC", "castle-desc")}>prev</button>
-                <button className="btn buttons" onClick={() => this.nextSlide("slideC", "castle-desc")}>next</button>
-              </div>
+            
             </div>
             
             
@@ -242,6 +238,11 @@ class ProjectContent extends React.Component {
             <img id = "castle-img" className="proj-ind"  src={require('../../assets/Images/'+ castleImgs[this.state.slideC])} />
             
             </div>
+            <div className="row btn-row">
+            <button className="btn buttons" onClick={() => this.switchView("castle1", "castle2")}>close</button>
+                <button className="btn buttons" onClick={() => this.prevSlide("slideC", "castle-desc")}>prev</button>
+                <button className="btn buttons" onClick={() => this.nextSlide("slideC", "castle-desc")}>next</button>
+              </div>
             
         </div>
 
@@ -256,11 +257,7 @@ class ProjectContent extends React.Component {
             
             </p>
 
-            <div className="row btn-row">
-            <button className="btn buttons" onClick={() => this.switchView("mhealth1", "mhealth2")}>close</button>
-                <button className="btn buttons" onClick={() => this.prevSlide("slideH", "mhealth-desc")}>prev</button>
-                <button className="btn buttons" onClick={() => this.nextSlide("slideH", "mhealth-desc")}>next</button>
-              </div>
+            
             </div>
             
             
@@ -268,6 +265,11 @@ class ProjectContent extends React.Component {
             <img id = "mhealth-img" className="proj-ind" src={require('../../assets/Images/'+ mHealthImgs[this.state.slideH])}/>
             
             </div>
+            <div className="row btn-row">
+            <button className="btn buttons" onClick={() => this.switchView("mhealth1", "mhealth2")}>close</button>
+                <button className="btn buttons" onClick={() => this.prevSlide("slideH", "mhealth-desc")}>prev</button>
+                <button className="btn buttons" onClick={() => this.nextSlide("slideH", "mhealth-desc")}>next</button>
+              </div>
         </div>
 
 
@@ -277,11 +279,7 @@ class ProjectContent extends React.Component {
             <hr className="yellow-hr"/>
             <p className="proj-desc2" id="model-desc"dangerouslySetInnerHTML={{__html:modelDesc[this.state.slideM]}}>
             </p>
-            <div className="row btn-row">
-            <button className="btn buttons" onClick={() => this.switchView("model1", "model2")}>close</button>
-                <button className="btn buttons" onClick={() => this.prevSlide("slideM", "model-desc")} >prev</button>
-                <button className="btn buttons" onClick={() => this.nextSlide("slideM", "model-desc")} >next</button>
-              </div>
+            
             </div>
             
             
@@ -289,6 +287,12 @@ class ProjectContent extends React.Component {
             <img id = "model-img" className="proj-ind"  src={require('../../assets/Images/'+ modelImgs[this.state.slideM])}/>
             
             </div>
+
+            <div className="row btn-row">
+            <button className="btn buttons" onClick={() => this.switchView("model1", "model2")}>close</button>
+                <button className="btn buttons" onClick={() => this.prevSlide("slideM", "model-desc")} >prev</button>
+                <button className="btn buttons" onClick={() => this.nextSlide("slideM", "model-desc")} >next</button>
+              </div>
             
         </div>
 
@@ -298,18 +302,18 @@ class ProjectContent extends React.Component {
         <hr className="yellow-hr"/>
         <p className="proj-desc2" id="robo-desc" dangerouslySetInnerHTML={{__html:roboDesc[this.state.slideR]}}>
         </p>
-        <div className="row btn-row">
-            <button className="btn buttons" onClick={() => this.switchView("robo1", "robo2")} >close</button>
-                <button className="btn buttons" onClick={() => this.prevSlide("slideR", "robo-desc")} >prev</button>
-                <button className="btn buttons" onClick={() => this.nextSlide("slideR", "robo-desc")} >next</button>
-              </div>
+        
         </div>
         
         
         <div className="col subproject-div2" data-aos="fade-up"> 
         <img id = "robo-img" className="proj-ind"  src={require('../../assets/Images/'+ roboImgs[this.state.slideR])}/>
         </div>
-        
+        <div className="row btn-row">
+            <button className="btn buttons" onClick={() => this.switchView("robo1", "robo2")} >close</button>
+            <button className="btn buttons" onClick={() => this.prevSlide("slideR", "robo-desc")} >prev</button>
+            <button className="btn buttons" onClick={() => this.nextSlide("slideR", "robo-desc")} >next</button>
+        </div>
         </div>
     
         
@@ -320,16 +324,18 @@ class ProjectContent extends React.Component {
             <hr className="yellow-hr"/>
             <p className="proj-desc2" id="front-desc" dangerouslySetInnerHTML={{__html:frontendDesc[this.state.slideF]}}>
             </p>
-            <div className="row btn-row">
-            <button className="btn buttons" onClick={() => this.switchView("front1", "front2")}>close</button>
-                <button className="btn buttons" onClick={() => this.prevSlide("slideF", "front-desc")}>prev</button>
-                <button className="btn buttons" onClick={() => this.nextSlide("slideF", "front-desc")}>next</button>
-              </div>
+           
             </div>
             
             
             <div className="col subproject-div2" data-aos="fade-up"> 
             <img id = "front-img" className="proj-ind"  src={require('../../assets/Images/'+ frontendImgs[this.state.slideF])} />
+            </div>
+
+            <div className="row btn-row">
+              <button className="btn buttons" onClick={() => this.switchView("front1", "front2")}>close</button>
+              <button className="btn buttons" onClick={() => this.prevSlide("slideF", "front-desc")}>prev</button>
+              <button className="btn buttons" onClick={() => this.nextSlide("slideF", "front-desc")}>next</button>
             </div>
             
         </div>

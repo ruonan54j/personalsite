@@ -73,7 +73,7 @@
     .buttons{
       margin-left: 5%;
       margin-bottom: 25vh;
-      margin-top: 45vh;
+      margin-top: 5vh;
       font-size: .7em;
       margin-right:3% !important;
       margin-left: 3%;
@@ -637,8 +637,7 @@ body {
   }
   
   .btn-row{
-    position: absolute;
-    top: 55vh;
+    position: relative;
     width: 100%;
   }
   
