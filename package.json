@@ -17,8 +17,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express":"*",
-    "body-parser":"*",
+    "express": "*",
+    "body-parser": "*",
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
     "react-fade-in": "^0.1.6",
