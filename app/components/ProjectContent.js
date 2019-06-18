@@ -24,7 +24,7 @@ const roboImgs=["robocop.jpg", 'roboin.jpg','hrobo.jpg','srobo.jpg'];
 const roboDesc=["For a project course, my team built a <span class='highlight-proj' >home security patrol bot.</span> RoboCop takes in a set of coordinates and patrols the given path.", "RoboCop connects to wifi through a Raspberry Pi and recieves coordinates through a web interface. It takes pictures of intruders on command and sends them to your smartphone", 
 "<span class='highlight-proj' >This is the hardware overview of the project: </span> <br> On the hardware side, I worked on the stepper motor library and getting the camera working with the Raspberry Pi. I also hooked up speakers to the Raspberry Pi but it wasn't implemented in the final product","<span class='highlight-proj' >This is the software overview of the project:</span> <br/> I worked on the front end web inteface to create an interactive graph where users can plot coordinates"];
 
-const frontendImgs=['front-end2.jpg','calc.jpg', 'simonGame.jpg', 'tictac.png'];
+const frontendImgs=['front-end2.jpg','calc.jpg', 'simonGame.jpg', 'tictac.jpg'];
 const frontendDesc=["Here are some early front end projects I made when I first started coding! This is a location based <a href='https://codepen.io/rjiaaa/full/BbeWxr' target='blank'>weather app</a>",
 "Classic <a href='https://codepen.io/rjiaaa/full/PLvpaE' target='blank'>Calculator</a> programming challenge", "Retro multi-mode <a href='https://codepen.io/rjiaaa/full/JzqWBX' target='blank'>Simon Game</a>", 
 "Non-responsibe but pure logic based <a href='https://codepen.io/rjiaaa/full/zbQZjY' target='blank'>Tic Tac Toe Game</a>. (Only one way to win!)"];

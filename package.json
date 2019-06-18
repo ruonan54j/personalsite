@@ -2,10 +2,7 @@
   "name": "ruonanjia",
   "description": "personal website",
   "version": "1.0.0",
-  "engines": {
-    "node": "10.16.0",
-    "npm": "6.9.0"
-  },
+
   "main": "index.js",
   "scripts": {
     "create": "webpack",
