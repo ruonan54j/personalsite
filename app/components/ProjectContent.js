@@ -217,7 +217,7 @@ class ProjectContent extends React.Component {
       </div>
       </div>
     
-      <img id="mockup_main" src={require('../../assets/Images/selfie.JPG')} ></img>
+      <img id="mockup_main" src={require('./selfie.JPG')} ></img>
        
       
      
@@ -241,7 +241,7 @@ class ProjectContent extends React.Component {
             
             
             <div className="col subproject-div2" data-aos="fade-up"> 
-            <img id = "castle-img" className="proj-ind"  src={require('../../assets/Images/'+ castleImgs[this.state.slideC])} />
+            <img id = "castle-img" className="proj-ind"  src={require('./'+ castleImgs[this.state.slideC])} />
             
             </div>
             
@@ -267,7 +267,7 @@ class ProjectContent extends React.Component {
             
             
             <div className="col subproject-div2" data-aos="fade-up"> 
-            <img id = "mhealth-img" className="proj-ind" src={require('../../assets/Images/'+ mHealthImgs[this.state.slideH])}/>
+            <img id = "mhealth-img" className="proj-ind" src={require('./'+ mHealthImgs[this.state.slideH])}/>
             
             </div>
         </div>
@@ -288,7 +288,7 @@ class ProjectContent extends React.Component {
             
             
             <div className="col subproject-div2" data-aos="fade-up"> 
-            <img id = "model-img" className="proj-ind"  src={require('../../assets/Images/'+ modelImgs[this.state.slideM])}/>
+            <img id = "model-img" className="proj-ind"  src={require('./'+ modelImgs[this.state.slideM])}/>
             
             </div>
             
@@ -309,7 +309,7 @@ class ProjectContent extends React.Component {
         
         
         <div className="col subproject-div2" data-aos="fade-up"> 
-        <img id = "robo-img" className="proj-ind"  src={require('../../assets/Images/'+ roboImgs[this.state.slideR])}/>
+        <img id = "robo-img" className="proj-ind"  src={require('./'+ roboImgs[this.state.slideR])}/>
         </div>
         
         </div>
@@ -331,7 +331,7 @@ class ProjectContent extends React.Component {
             
             
             <div className="col subproject-div2" data-aos="fade-up"> 
-            <img id = "front-img" className="proj-ind"  src={require('../../assets/Images/'+ frontendImgs[this.state.slideF])} />
+            <img id = "front-img" className="proj-ind"  src={require('./'+ frontendImgs[this.state.slideF])} />
             </div>
             
         </div>
@@ -344,7 +344,7 @@ class ProjectContent extends React.Component {
         <div className="col-sm-8">
         <div id="castle1" className="card">
             <div>
-            <img className="proj-ind clickable" onClick={() => this.switchView("castle2", "castle1")} src={require("../../assets/Images/castle mockup.jpg")}/>
+            <img className="proj-ind clickable" onClick={() => this.switchView("castle2", "castle1")} src={require("./castle mockup.jpg")}/>
             </div>
         </div>
         </div>
@@ -352,14 +352,14 @@ class ProjectContent extends React.Component {
         <div className="col-sm-4">
         <div id = "mhealth1" className="card">
             <div>
-            <img className="proj-ind clickable" onClick={() => this.switchView("mhealth2", "mhealth1")} src={require("../../assets/Images/mhealth_mockup1.jpg")}/>
+            <img className="proj-ind clickable" onClick={() => this.switchView("mhealth2", "mhealth1")} src={require("./mhealth_mockup1.jpg")}/>
             </div>
             </div>
 
 
         <div id="model1" className="card">
             <div>
-            <img className="proj-ind clickable" onClick={() => this.switchView("model2", "model1")} src={require("../../assets/Images/rocket.jpg")}/>
+            <img className="proj-ind clickable" onClick={() => this.switchView("model2", "model1")} src={require("./rocket.jpg")}/>
             </div>  
             </div>
         </div>
@@ -370,7 +370,7 @@ class ProjectContent extends React.Component {
 
         <div id="front1" className="card">
         <div>
-            <img className="proj-ind clickable" onClick={() => this.switchView("front2", "front1")} src={require("../../assets/Images/front-end2.jpg")}/>
+            <img className="proj-ind clickable" onClick={() => this.switchView("front2", "front1")} src={require("./front-end2.jpg")}/>
           </div>
         </div>
 
@@ -383,7 +383,7 @@ class ProjectContent extends React.Component {
         <div className="col-sm-8">
         <div id="robo1" className="card">
         <div>
-            <img className="proj-ind clickable" onClick={() => this.switchView("robo2", "robo1")} src={require("../../assets/Images/robocop.jpg")}/>
+            <img className="proj-ind clickable" onClick={() => this.switchView("robo2", "robo1")} src={require("./robocop.jpg")}/>
         </div>
         </div>
         </div>
