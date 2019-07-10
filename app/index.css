@@ -282,4 +282,6 @@ body {
 .blockchain-proj{
   background: #35353B;
   color: white;
+  padding: 5%;
+  height: 100%;
 }

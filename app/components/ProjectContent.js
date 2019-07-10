@@ -113,7 +113,7 @@ class ProjectContent extends React.Component {
                                 className="img-proj"
                                 src={require('../../assets/Images/front.jpg')}
                                 alt="img"></img>
-                            <div className="proj-hover">Front End Projects</div>
+                            <div className="proj-hover" onClick={()=>this.routeChange("front")}>Front End Projects</div>
                         </div>
                         <div className="col card">
                             <div className="blockchain-proj">
