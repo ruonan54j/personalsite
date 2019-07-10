@@ -89,11 +89,11 @@ class ResumeContent extends React.Component {
       
         <div className="resume-container">
          <div className="options-resume">
-         <h1 className={this.state.section == 1 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("education")}>Education</h1>
-         <h1 className={this.state.section == 2 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("skills")}> Skills</h1>
-         <h1 className={this.state.section == 3 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("exp")}>Work Experience</h1>
-         <h1 className={this.state.section == 4 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("teams")}>Student Teams</h1>
-         <h1 className={this.state.section == 5 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("involve")}>School Involvements</h1>
+         <h1 className={this.state.section === 1 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("education")}>Education</h1>
+         <h1 className={this.state.section === 2 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("skills")}> Skills</h1>
+         <h1 className={this.state.section === 3 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("exp")}>Work Experience</h1>
+         <h1 className={this.state.section === 4 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("teams")}>Student Teams</h1>
+         <h1 className={this.state.section === 5 ? 'yellow-opt':'opt-tab'} onClick={() => this.dirSection("involve")}>School Involvements</h1>
         
          <div>
          

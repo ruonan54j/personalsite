@@ -1,218 +1,16 @@
 /*safari issues fix*/
 @media only screen and (max-width: 500px) {
-
-    #logo-cont{
-      width: 100% !important;
-      animation: movex 1s ease forwards 4s !important;
-    }
-
-    .intro{
-      margin-bottom: 10vh;
-      display: inline-block;
-    }
-
-    #mockup_main{
-      text-align: center;
-      margin-top: 85vh;
-      max-width: 95% !important;
-      opacity: 0;
-      border-radius:.5em;
-    }
-
-    #desc-main{
-      font-size: 1em !important;
-    }
-
-    @keyframes movex {
-      to{
-        top: 30vh;
-        
-      }
-    }
-
-    .tab1{
-      width: 20vw !important;
-    }
-
-    .tab2{
-      width: 15vw !important;
-    }
-    .tab3{
-      margin-left: 2vw !important;
-      margin-right: 4vw !important;
-      width: 15vw !important;
-    }
-
-    #content-layout{
-      margin-top: 50vh;
-    }
-
-    #content-layout h1{
-      font-size: 1.8em;
-      margin-left: 15%;
-    }
-
-    .card{
-      margin: 5% !important;
-    }
-
-    #proj-slide{
-      margin-top: 50vh;
-    }
-
-    .proj-desc2{ 
-      font-size: 1em !important;
-      width: 80vw !important;
-      display: block;
-    }
-
-    .btn-row{
-      margin: 0% !important;
-    }
-
-    .buttons{
-      margin-left: 5%;
-      margin-bottom: 25vh;
-      margin-top: 5vh;
-      font-size: .7em;
-      margin-right:3% !important;
-      margin-left: 3%;
-     }
-
-     .project-row2{
-       display: block;
-     }
-
-     .subproject-div2{
-       margin:0 !important;
-     }
-     
-
-     /*resume*/
-     .resume-container{
-       margin-top: 15vh;
-     }
-
-     .border-container{
-       height:auto !important;
-       padding: 0 !important;
-       margin-bottom: 30vh !important;
-     }
-    
-     
-
-     .options-resume{
-       left: 5% !important;
-       width: 30% !important;
-       padding: 0 !important;
-     }
-
-     .options-resume h1{
-       font-size: .8em !important;
-     }
-
-     .resume-title{
-       font-size: 1.2em !important;
-     }
-
-     .resume-desc{
-      border-top: solid #FFD231 3px !important;
-     }
-
-     .resume-desc p{
-       font-size: .8em !important;
-     }
-
-     #projThis{
-       display: none;
-     }
-
-     #projThis2{
-       display: block;
-     }
+ 
 
 }
 
 /*end mobile spec styling*/
 
 @media screen and (min-width:500px) and (max-width:1000px){
-  #desc-main{
-    font-size:1.1em !important;
-  }
-
-  .options-resume h1{
-    font-size: 1.1em !important; 
-  }
-
-  #mockup-main{
-    margin-top: 20% !important;
-  }
-
-  .proj-title{
-    font-size: 1.2em !important;
-  }
-
-  .proj-desc2{ 
-    font-size: .95em !important;
-  }
-
-  .projThis{
-    font-size: 1.5em !important;
-  }
-
-  .buttons{
-    font-size: .9em !important;
-  }
-}
-
-
-@media screen and (min-width:1300px){
-
-  .navbar a{
-    font-size: 1.6em !important;
-  }
-  
-  .resume-desc{
-    font-size: 1.6em !important;
-  }
-
-  .resume-title{
-    font-size: 2.5em !important;
-  }
-
-  #desc-main{
-    font-size: 1.6em !important;
-  }
-
-  .proj-title{
-    font-size: 2.5em !important;
-  }
-
-  .proj-desc2{
-    font-size: 1.25em !important;
-  }
-
-  .buttons{
-    font-size: 1.25em !important;
-  }
-}
-
-
-
-#projThis2{
-  display: none;
-}
-
-
-
-.row:before, .row:after {
-    display: none !important;
 }
 
 
 body {
-    display: inline-block;
-    width: 100vw;
     font-family: "Oxygen", "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
       sans-serif !important;
  
@@ -221,17 +19,12 @@ body {
   /* navbar customization */
   
   .navbar{
-      z-index: 1;
-      top: 0;
+    z-index: 1;
+    top: 0;
     width: 100vw;
-    position: fixed;
     background-color: rgba(255,255,255, 0.95);
     height: 5em;
   
-  }
-
-  #logo{
-    margin-left: 15% !important;
   }
 
   .rj-logo{
@@ -264,482 +57,223 @@ body {
     border-bottom: solid .3em #FFD231;
   }
   
-  /* home page */
-  
-  
-  .pic-div{
-    position: fixed;
-   /* background: url(./assets/Images/site12.jpg) no-repeat center;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: white;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-  }
-  
-  .h1-intro{
-    font-size: 3.4em;
-    padding-right: 5%;
-    border-bottom: #FFD231;
-    border-bottom: solid 2px #FFD231;
-  }
-  
-  .txt-intro{
-    width: 35%;
-    top: 20%;
-    left: 55%;
-    z-index: 0;
-    position: fixed;
-    color: white;
-  }
-  
-  .rotate-desc{
-    margin-top: 3%;
-    font-size: 1.3em;
-    letter-spacing: 0.1em;
-    top: 100%;
-    padding:0;
-  }
-  
-  .desc-container{
-    overflow:hidden;
-    height: 2.8em;
-    padding-top: 0;
-  }
-  
-
-  /* About page */
-  .about-div {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    top: 100vh;
-  }
-  
-  .about-tit{
-    margin-top: 10%;
-    font-size: 2.5em;
-  
-  }
-  /* resume page */
-  .resume-container{
-    width: 100%;
-    background:white;
+  #mockup_main{
+    vertical-align: bottom;
+    max-width:50vw;
+    margin-bottom:0;
+    max-height: 75vh;
     
   }
-  .border-container{
-    height: 70vh;
-    margin-left: 35%;
-    width: 50%;
-    padding-left: 1em;
-    margin-bottom: 30vh;
-   
+  /* home page */
+  .intro{
+    padding-bottom:0;
+    margin-left:3%;
+    margin-right:3%;
+    background:#98a9b3;
   }
 
-  
-  .border-container-last{
-    height: 75vh;
-    margin-left: 35%;
-    width: 50%;
+  #home-left{
+    padding-left: 5%;
     padding-top: 5%;
-    padding-left: 1em;
-   
   }
 
-  .bd-overlay{
-    margin-top: 15%;
-    overflow-y: scroll;
-    height: 70vh;
-
+  .name-title{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 3.5em;
+    letter-spacing: 0.1em;
   }
 
-  .yellow-opt{
-    background-color: #FFD231 !important;
+  .hr-intro{
+    border: 1px solid #FFD231;
   }
-  
-  ::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+
+  .desc-intro{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-size: 1.2em;
+  }
+
+  .icon-custom{
+    font-weight: 400;
+    color: white;
+    margin-top:2%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    font-size: 2em;
+  }
+
+/*project*/
+
+.proj-title{
+  margin-top: 25vh;
+  text-align: center;
+  font-weight:600;
+  letter-spacing: 0.1em;
+}
+
+.card{
+  border: none;
+  margin: 3%;
+  padding:0;
+  overflow: hidden;
+}
+
+.img-proj{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.proj-hover{
+  position: absolute;
+  height: 0%;
+  bottom:0;
+  width: 100%;
+  left:0;
+  color: white;
+  background: none;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 1.5em;
+}
+
+.card:hover > .proj-hover{
+  height: 30%;
+  color:white;
+  background: rgba(48, 48, 48, 0.8);
+}
+
+.instr-p{
+  text-align: center;
+  letter-spacing: 0.1em;
 }
 
 
-  .resume-title{
-    font-size: 2em;
-    font-weight: 600 !important;
-  }
+/*resume*/
+.resume-container{
+  width: 100%;
+  background:white;
   
-  .resume-desc{
-    border-top: solid #FFD231 6px;
-    font-size: 1.2em;
-    padding-top: 1em;
-  }
-  
-  
-  .options-resume{
-    width:30%;
-    padding-left: 5%;
-    left: 5%;
-    position: fixed;
-  }
-  
-  .options-resume a{
-    color: white !important;
-  }
-
-  .options-resume h1{
-    font-size:1.3em;
-    color: white;
-    margin-right: 10%;
-    padding:3%;
-    
-  }
-
-  .opt-tab{
-    background-color: rgb(151, 151, 151);
-  }
-
-  .opt-tab:hover{
-    background-color: #FFD231;
-    }
-
-  #hr-about{
-   margin-right: 10%;
-  }
-  
-  .blink{
-    color: #8e9299;
-  }
-  
-  
-  /*projects*/
-  .project-div{
-    position: absolute;
-     width: 100%;
-     z-index: -1;
-     margin-bottom: 0;
-   
-   }
-  .proj-row{
-    height: 100vh;
-  }
-  
-  .project-row2{
-    
-    height: 70vh;
-    margin-top: 10%;
-    margin-right: 5% !important;
-    
-  }
-  
-  .subproject-div{
-    margin: 3% 15% 15% 15%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: all 2s ease;
-    
-  }
-  
-  .proj-ind{
-    display: block;
-    max-width:100%;
-    max-height:100%;
-    box-shadow: 10px 10px 20px#e0e1e2;
-    border-radius: .5em;
-  }
-  
-  .projThis{
-    margin: 10%;
-    font-size: 2em;
-  }
-  
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-      to { opacity: 1; }
-  }
-  
-  .project-container{
-    margin: 12% 7% 0% 7%;
-    max-width: 100vw;
-  }
-  
-  .proj-h1{
-    text-align: center;
-  }
-  
-  
-  .proj-desc2{
-    margin-right: 15%;
-    font-size: 1.1em;
-    line-height: 1.6em;
-  }
-  
-  .subproject-div2 { 
-    margin-left: -20%;
-    margin-right: -10%;
-    
-  }
-  
-  .proj-title{
-    font-size: 1.6em;
-    letter-spacing: 0.03em;
-    font-weight: 600 !important;
-  }
-  
-  #mhealth2{
-    display: none;
-    
-  }
-  
-  .fade-div{
-    animation: fadeIn 1s;
-  }
-  #castle2{
-    display: none;
-  }
-  
-  #model2{
-    display: none;
-  }
-  
-  #front2{
-    display: none;
-  }
-  
-  #robo2{
-    display: none;
-  }
-  
-  .yellow-hr{
-    margin-right: 20%;
-    height:.2em;
-    border:none;
-    background:#FFD231;
-  }
-  
-  
-  #underline{
-    margin-top:2%;
-    background-color:#FFD231;
-    height: 3px;
-    width: 0;
-    margin-left: 15%;
-    margin-right: 20%;
-  }
-  
-  @keyframes line-yellow {
-    to{
-      width: 65%;
-    }
-  }
-  
-  .vectary-obj{
-    margin:5%;
-    background: #FFD231;
-    float: right;
-  }
-  
-  #desc-main{
-    margin-left: 15%;
-    width:75%;
-    font-size:1.3em;
-    margin-top: 4%;
-    line-height: 1.5em;
-    font-family: 'IBM Plex Sans', sans-serif;
-    
-  }
-  
-  
-  .contact-link {
-    margin: 10% 5% auto 0;
-  }
-  
-  @keyframes expand-text{
-    from{
-      opacity: 0;
-      height: 0;
-    }
-    to{
-      opacity: 1;
-      height: 100%;
-    }
-  }
-  
-  #frame{
-    margin-top: 7%;
-    margin-left: 15%;
-  }
-  
-  
-  #mockup_main{
-    max-width: 50%;
-    margin-right: 5%;
-    float: right;
-    opacity: 0;
-    border-radius:.5em;
-  }
-  
-  
-  .highlight-txt{
-    background: #FFD231;
-    color: white;
-    font-size:1.5em;
-    font-style: italic;
-    padding-left: .2em;
-    padding-right: .2em;
-  }
-  
-  .highlight-proj{
-    background: #FFD231;
-    color: white;
-    font-size:1.2em;
-    font-style: italic;
-    padding-left: .2em;
-    padding-right: .2em;
-  }
-  
-  .picture_about{
-    margin: 10% 10% auto 10%;
-    position: absolute;
-    object-fit: contain !important;
-  }
-  .picture{
-    max-width:100%;
-    max-height:100%;
-  }
-  
-  #about-txt{
-    margin-right: 15%;
-    font-size:0.45em;
-    line-height: 1.6em;
-  }
-  
-  .slide{
-    top:1.5em;
-    position: absolute;
-    left: 0;
-    background-color: #B8B3AF;
-    overflow: hidden;
-    text-align: center;
-    width: 0%;
-    height: 1.5em;
-    font-size: 2.5em;
-    transition: .5s ease;
-  }
-  
-  .option:hover .slide {
-    color: white;
-    width: 50%;
-    right: 0;
-  }
-  
-  .btn-row{
-    position: relative;
-    width: 100%;
-  }
-  
-  .buttons{
-   background-color: #8e9299 !important;
-   color: white !important;
-   margin-right:10%;
-   margin-left: 3%;
-  }
-  
-  .buttons:hover{
-    background-color: rgb(1, 121, 219) !important;
-  }
-  
-  /*
-  .wrapper {
-    grid-gap: 1.5em;
-    display:grid;
-    width: 80vw;
-    height: 100vh; 
-    grid-template-columns: repeat(3,1fr);
-  }
-  
-  #castle1{
-    grid-column: 1/3;
-    grid-row: 1/3;
-  }
-  
-  
-  #robo1{
-    grid-column: 2/4;
-    grid-row: 3/5;
-  }
-  
-  #this1{
-    grid-column: 1/2;
-  }
-  
-  #front1{
-    grid-column:1/2;
-  }
-  */
-
-  .part2-res{
-    margin-bottom: 2vh;
-  }
+}
+.border-container{
+  margin-left: 35%;
+  width: 50%;
+  padding-left: 1em;
+  margin-bottom: 5%;
+ 
+}
 
 
+.border-container-last{
+  height: 75vh;
+  margin-left: 35%;
+  width: 50%;
+  padding-left: 1em;
+ 
+}
 
-  html {
-    overflow-x: hidden !important;
-  }
+.bd-overlay{
+  margin-top: 5%;
+  overflow-y: scroll;
+  height: 70vh;
+
+}
+
+.yellow-opt{
+  background-color: #FFD231 !important;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+.resume-title{
+  font-size: 1.6em;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em;
+}
+
+.resume-desc{
+  border-top: solid #FFD231 6px;
+  font-size: 1.2em;
+  padding-top: 1em;
+}
+
+
+.options-resume{
+  width:30%;
+  padding-left: 5%;
+  left: 5%;
+  position: fixed;
+}
+
+.options-resume a{
+  color: white !important;
+}
+
+.options-resume h1{
+  font-size:1.3em;
+  color: white;
+  margin-right: 10%;
+  padding:3%;
   
-  .intro{
-    height: 100vh;
-  }
-  
-  .clickable:hover{
-    animation: clicking .3s ease forwards;
-  }
-  
-  @keyframes clicking{
-    from{
-      opacity: 0.8;
-    }
-    to{
-      opacity: 1;
-      transform: scale(1.03, 1.03);
-    }
-  }
-  
-  .less-margin{
-    height: auto !important;
-    margin-bottom: 12vh !important;
-  }
-  
-  #content-layout{
-    
-    margin-bottom: 30%;
+}
+
+.opt-tab{
+  background-color: rgb(151, 151, 151);
+}
+
+.opt-tab:hover{
+  background-color: #FFD231;
   }
 
-  #content-layout .row{
-    margin: 5% 0 3% 0;
-    padding: 0;
-  }
-  
-  #content-layout h1{
-    margin-left: 15px;
-    font-weight: 600 !important;
-    letter-spacing: 0.05em;
-  }
-  
-  #model1{
-    margin-top: 18%;
-    margin-bottom: 0;
-  }
+#hr-about{
+ margin-right: 10%;
+}
 
-  .card{
-      display: block !important;
-      border: none;
-  }
+.blink{
+  color: #8e9299;
+}
 
-  #projThis{
-      margin-top: 20%;
-  }
+/*proj-ind style*/
+
+.proj-ind-title{
+  text-align: center;
+}
+
+.proj-ind-container{
+  margin: 3% 10% 5% 10%;
+}
+
+.img-proj-ind{
+  width: 80%;
+  max-height: 100%;
+}
+
+.text-proj-ind{
+  font-size: 1.3em;
+  margin-top: 5%;
+}
+
+.yellow-line{
+  border: 3px solid #FFD231;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.img-right-ind{
+  margin-left: 20%;
+  right:0;
+}
+
+.second-row{
+  margin-top: 3%;
+}
+
+.robo-desc{
+  margin-top: 10%;
+}

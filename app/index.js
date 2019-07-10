@@ -7,6 +7,11 @@ import 'core-js/fn/number/is-nan';
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Home from './components/Home';
 import Resume from './components/Resume';
+import Castle from './components/Castle';
+import Robocop from './components/Robocop';
+import Mhealth from './components/Mhealth';
+import Model from './components/Model';
+import Front from './components/Front';
 
 var React = require('react');
 var ReactDOM = require('react-dom');
@@ -34,6 +39,11 @@ class App extends React.Component {
            
           <Route exact path="/" component={Home} />
           <Route path="/resume" component={Resume} />
+          <Route path="/castle" component={Castle} />
+          <Route path="/robocop" component={Robocop} />
+          <Route path="/model" component={Model} />
+          <Route path="/mhealth" component={Mhealth} />
+          <Route path="/front" component={Front} />
         
         </div>
       </Router>
@@ -46,5 +56,8 @@ class App extends React.Component {
 
 
 ReactDOM.render(
-    <App/>, document.getElementById('app')
+
+   <Router onUpdate={() => window.scrollTo(0, 0)}>
+        <Route path="/" component={ App }/>
+    </Router>, document.getElementById('app')
 );
