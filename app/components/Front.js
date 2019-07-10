@@ -8,12 +8,12 @@ const Front = () => {
         <FadeIn>
             <div>
                 <Navbar/>
-                <div class="proj-ind-container">
+                <div className="proj-ind-container">
 
-                    <h1 class="proj-ind-title">Early Front End Projects</h1>
+                    <h1 className="proj-ind-title">Early Front End Projects</h1>
 
                     <hr/>
-                    <div class="fe-list">
+                    <div className="fe-list">
                         <ul>
                             <a href="https://codepen.io/rjiaaa/full/PLvpaE" target="blank">
                                 <li>Calculator App</li>
@@ -30,34 +30,34 @@ const Front = () => {
                         </ul>
                     </div>
 
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/front2.jpg')}
                                 alt="img"></img>
 
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/front3.jpg')}
                                 alt="img"></img>
 
                         </div>
                     
                     
-                        <div class="col">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/Front.jpg')}
                                 alt="img"></img>
 
                         </div>
 
-                        <div class="col">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/front4.jpg')}
                                 alt="img"></img>
 

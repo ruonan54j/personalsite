@@ -116,11 +116,14 @@ class ProjectContent extends React.Component {
                             <div className="proj-hover">Front End Projects</div>
                         </div>
                         <div className="col card">
-                            <img
-                                className="img-proj"
-                                src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2018/02/18045916/GM05.gif"
-                                alt="img"></img>
-                            <div className="proj-hover">3D Modelling</div>
+                            <div className="blockchain-proj">
+                                <h1>
+                                Blockchain Project
+                                </h1>
+                                <hr/>
+                                <p>Coming Soon!</p>
+                                </div>
+                            <div className="proj-hover">Crypto Trading</div>
                         </div>
 
                     </div>

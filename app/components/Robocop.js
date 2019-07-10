@@ -9,23 +9,23 @@ const Robocop = () => {
             <div>
                 <Navbar/>
 
-                <div class="proj-ind-container">
+                <div className="proj-ind-container">
 
-                    <h1 class="proj-ind-title">RoboCop</h1>
+                    <h1 className="proj-ind-title">RoboCop</h1>
 
                     <hr/>
 
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/robo1_1.jpg')}
                                 alt="img"></img>
 
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <h2>Overview</h2>
-                            <p class="text-proj-ind">
+                            <p className="text-proj-ind">
                                 For a project course, my team built a home security patrol bot. RoboCop takes in
                                 a set of coordinates and patrols the given path.
                             </p>
@@ -34,14 +34,14 @@ const Robocop = () => {
 
                     </div>
 
-                    <hr class="yellow-line"/>
-                    <h2 class="proj-ind-title">Interface</h2>
+                    <hr className="yellow-line"/>
+                    <h2 className="proj-ind-title">Interface</h2>
                     <hr/>
 
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-proj-ind">
-                                <h2 class="robo-desc">Overview</h2>
+                    <div className="row">
+                        <div className="col">
+                            <p className="text-proj-ind">
+                                <h2 className="robo-desc">Overview</h2>
                                 RoboCop connects to wifi through a Raspberry Pi and recieves coordinates through
                                 a web interface. It takes pictures of intruders on command and sends them to
                                 your smartphone
@@ -49,17 +49,17 @@ const Robocop = () => {
                             <div></div>
 
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/robo2.jpg')}
                                 alt="img"></img>
 
                         </div>
 
-                        <div class="row">
+                        <div className="row">
 
-                            <div class="col">
+                            <div className="col">
                                 <h2>Hardware</h2>
                                 <p>
                                     On the hardware side, I worked on the stepper motor library and getting the
@@ -67,7 +67,7 @@ const Robocop = () => {
                                     Pi but it wasn't implemented in the final product
                                 </p>
                             </div>
-                            <div class="col">
+                            <div className="col">
                                 <h2>Software</h2>
                                 <p>
                                     On the software side, I worked on the front end web inteface to create an

@@ -8,23 +8,23 @@ const Mhealth = () => {
         <FadeIn>
             <div>
                 <Navbar/>
-                <div class="proj-ind-container">
+                <div className="proj-ind-container">
 
-                    <h1 class="proj-ind-title">mHealth</h1>
+                    <h1 className="proj-ind-title">mHealth</h1>
 
                     <hr/>
 
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/mhealthMockup.jpg')}
                                 alt="img"></img>
 
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <h2>Overview</h2>
-                            <p class="text-proj-ind">
+                            <p className="text-proj-ind">
                                 mHealth is a dashboard for tracking your mental health. This project was built
                                 during a 24 hour hackathon. Test out the app
                                 <a href="https://mental-health-tracker.herokuapp.com/">here!</a>
@@ -34,11 +34,11 @@ const Mhealth = () => {
 
                     </div>
 
-                    <hr class="yellow-line"/>
-                    <h2 class="proj-ind-title">Interface</h2>
+                    <hr className="yellow-line"/>
+                    <h2 className="proj-ind-title">Interface</h2>
                     <hr/>
-                    <div class="row">
-                        <p class="text-proj-ind">
+                    <div className="row">
+                        <p className="text-proj-ind">
                             This web app was built using PHP and vanilla JS. It implements ClearDB (SQL) and
                             consists of the following features
                         </p>
@@ -53,33 +53,33 @@ const Mhealth = () => {
                     </div>
                     <hr/>
 
-                    <div class="row">
-                        <div class="col">
+                    <div className="row">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/mh1.jpg')}
                                 alt="img"></img>
 
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/mh2.jpg')}
                                 alt="img"></img>
 
                         </div>
                         </div>
-                        <div class="row second-row">
-                        <div class="col">
+                        <div className="row second-row">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/mh3.jpg')}
                                 alt="img"></img>
 
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <img
-                                class="img-proj-ind"
+                                className="img-proj-ind"
                                 src={require('../../assets/Images/mh4.jpg')}
                                 alt="img"></img>
 
