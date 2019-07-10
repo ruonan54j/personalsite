@@ -62,7 +62,7 @@ class ProjectContent extends React.Component {
                     </div>
                     <div className="col">
 
-                        <img id="mockup_main" src={require('../../assets/Images/selfie.JPG')}></img>
+                        <img id="mockup_main" src={require('../../assets/Images/selfie.jpg')}></img>
 
                     </div>
 

@@ -50,7 +50,7 @@ const Front = () => {
                         <div className="col">
                             <img
                                 className="img-proj-ind"
-                                src={require('../../assets/Images/Front.jpg')}
+                                src={require('../../assets/Images/front.jpg')}
                                 alt="img"></img>
 
                         </div>
