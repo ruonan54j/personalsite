@@ -1,22 +1,24 @@
 import React, {Component} from 'react';
-import { withRouter } from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 
 import '../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 
 class ProjectContent extends React.Component {
-  constuctor() {
-    this.routeChange = this.routeChange.bind(this);
-  }
+    constuctor() {
+        this.routeChange = this
+            .routeChange
+            .bind(this);
+    }
 
     componentDidMount() {
         AOS.init({duration: 2000});
     }
 
     routeChange(path) {
-      window.location.hash = "#/"+path;
+        window.location.hash = "#/" + path;
     }
-  
+
     render() {
         AOS.init();
 
@@ -73,57 +75,58 @@ class ProjectContent extends React.Component {
                     <hr/>
                     <p className="instr-p">Click on card to view more</p>
                     <div className="row">
-                     
-                        <div className="card col" onClick={()=>this.routeChange("castle")}>
+
+                        <div className="card col" onClick={() => this.routeChange("castle")}>
                             <img
                                 className="img-proj"
                                 src={require('../../assets/Images/castleMockup.jpg')}
                                 alt="img"></img>
                             <div className="proj-hover">Castle Lab</div>
                         </div>
-                  
 
-                        <div className="card col" onClick={()=>this.routeChange("mhealth")}>
+                        <div className="card col" onClick={() => this.routeChange("mhealth")}>
                             <img
                                 className="img-proj"
                                 src={require('../../assets/Images/mhealthMockup.jpg')}
                                 alt="img"></img>
                             <div className="proj-hover">mHealth</div>
                         </div>
-                        <div className="col card" onClick={()=>this.routeChange("model")}>
+                        <div className="col card" onClick={() => this.routeChange("model")}>
                             <img
                                 className="img-proj"
                                 src={require('../../assets/Images/rocket.jpg')}
                                 alt="img"></img>
                             <div className="proj-hover">3D Modelling</div>
-                            
+
                         </div>
 
                     </div>
                     <div className="row">
-                        <div className="card col" onClick={()=>this.routeChange("robocop")}>
+                        <div className="card col" onClick={() => this.routeChange("robocop")}>
                             <img
                                 className="img-proj"
                                 src={require('../../assets/Images/robo.jpg')}
                                 alt="img"></img>
                             <div className="proj-hover">RoboCop</div>
                         </div>
-                        <div className="card col">
+                        <div className="card col" onClick={() => this.routeChange("front")}>
                             <img
                                 className="img-proj"
                                 src={require('../../assets/Images/front.jpg')}
                                 alt="img"></img>
-                            <div className="proj-hover" onClick={()=>this.routeChange("front")}>Front End Projects</div>
+                            <div className="proj-hover">Front End Projects</div>
                         </div>
                         <div className="col card">
                             <div className="blockchain-proj">
                                 <h1>
-                                Blockchain Project
+                                    Blockchain Project
                                 </h1>
                                 <hr/>
-                                <p>Coming Soon!</p>
-                                </div>
-                            <div className="proj-hover">Crypto Trading</div>
+                                <p>Coming Soon! View progress
+                                    <a href="https://github.com/ruonan54j/crypto-betting" target="blank"> here</a>
+                                </p>
+                            </div>
+
                         </div>
 
                     </div>

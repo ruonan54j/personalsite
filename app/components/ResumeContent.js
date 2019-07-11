@@ -112,7 +112,7 @@ class ResumeContent extends React.Component {
                 <h1 className="resume-title">Technical Skills</h1>
                 <div className="resume-desc">
                 <p><strong>Programming Languages :</strong> 
-                Java, React, JavaScript/CSS/HTML, Ruby On Rails, PHP, C/C++, Python, VBA, Assembly, Verilog <br></br> <br></br>  
+                Java, React, JavaScript/CSS/HTML, PHP, C/C++, Python, VBA, Ruby On Rails, Assembly, Verilog <br></br> <br></br>  
                 <strong>Version Control :</strong> GitHub, SVN <br></br> <br></br>  <strong>
                     Graphic Design Tools :</strong> SolidWorks, 3Ds Max, Photoshop</p>
                 </div>
