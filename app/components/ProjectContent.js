@@ -86,14 +86,14 @@ class ProjectContent extends React.Component {
 
                         <div className="card col" onClick={() => this.routeChange("mhealth")}>
                             <img
-                                className="img-proj"
+                                className="img-proj img-fluid"
                                 src={require('../../assets/Images/mhealthMockup.jpg')}
                                 alt="img"></img>
                             <div className="proj-hover">mHealth</div>
                         </div>
                         <div className="col card" onClick={() => this.routeChange("model")}>
                             <img
-                                className="img-proj"
+                                className="img-proj img-fluid"
                                 src={require('../../assets/Images/rocket.jpg')}
                                 alt="img"></img>
                             <div className="proj-hover">3D Modelling</div>
@@ -104,14 +104,14 @@ class ProjectContent extends React.Component {
                     <div className="row">
                         <div className="card col" onClick={() => this.routeChange("robocop")}>
                             <img
-                                className="img-proj"
+                                className="img-proj img-fluid"
                                 src={require('../../assets/Images/robo.jpg')}
                                 alt="img"></img>
                             <div className="proj-hover">RoboCop</div>
                         </div>
                         <div className="card col" onClick={() => this.routeChange("front")}>
                             <img
-                                className="img-proj"
+                                className="img-proj img-fluid"
                                 src={require('../../assets/Images/front.jpg')}
                                 alt="img"></img>
                             <div className="proj-hover">Front End Projects</div>

@@ -1,15 +1,3 @@
-/*safari issues fix*/
-@media only screen and (max-width: 500px) {
- 
-
-}
-
-/*end mobile spec styling*/
-
-@media screen and (min-width:500px) and (max-width:1000px){
-}
-
-
 body {
     font-family: "Oxygen", "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
       sans-serif !important;
@@ -285,3 +273,86 @@ body {
   padding: 5%;
   height: 100%;
 }
+
+
+@media only screen and (max-width: 500px) {
+
+  .blockchain-proj h1{
+    font-size: 0.8em !important;
+  }
+
+  .blockchain-proj p{
+    font-size: 0.5em !important;
+  }
+  .blockchain-proj hr{
+    margin: 0 !important;
+  }
+
+    .tab1{
+      width: 20vw !important;
+    }
+
+    .tab2{
+      width: 15vw !important;
+    }
+    .tab3{
+      margin-left: 2vw !important;
+      margin-right: 4vw !important;
+      width: 15vw !important;
+    }
+
+
+     /*resume*/
+     
+     .border-container{
+       height:auto !important;
+       padding: 0 !important;
+       margin-bottom: 3vh !important;
+     }
+    
+     .options-resume{
+       left: 5% !important;
+       width: 30% !important;
+       padding: 0 !important;
+     }
+
+     .options-resume h1{
+       font-size: .8em !important;
+     }
+
+     .resume-title{
+       font-size: 1.2em !important;
+     }
+
+     .resume-desc{
+      border-top: solid #FFD231 3px !important;
+     }
+
+     .resume-desc p{
+       font-size: .8em !important;
+     }
+     
+
+}
+
+/*end mobile spec styling*/
+
+@media screen and (min-width:500px) and (max-width:1000px){
+  
+  .blockchain-proj h1{
+    font-size: 1.1em !important;
+  }
+
+  .blockchain-proj p{
+    font-size: 0.7em !important;
+  }
+  .blockchain-proj hr{
+    margin: .2em !important;
+  }
+  .options-resume h1{
+    font-size: 1.1em !important; 
+  }
+
+  
+}
+

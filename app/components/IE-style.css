@@ -1,0 +1,19 @@
+.card{
+    height: 50vh !important;
+}
+/*safari issues fix*/
+@media only screen and (max-width: 500px) {
+    .card{
+        height: 30vh !important;
+    }
+
+}
+
+/*end mobile spec styling*/
+
+@media screen and (min-width:500px) and (max-width:1000px){
+    .card{
+        height: 40vh !important;
+    }
+}
+
