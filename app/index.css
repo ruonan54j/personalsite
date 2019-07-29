@@ -212,7 +212,7 @@ body {
 }
 
 .opt-tab{
-  background-color: rgb(151, 151, 151);
+  background-color: #c8d1db;
 }
 
 .opt-tab:hover{
@@ -356,3 +356,10 @@ body {
   
 }
 
+
+.footer-custom{
+  background-color:#1e3f63;
+  color: white;
+  margin-top:5vh;
+  font-size: 1.7em;
+}
