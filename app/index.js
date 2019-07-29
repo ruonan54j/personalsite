@@ -57,7 +57,7 @@ class App extends React.Component {
 
 ReactDOM.render(
 
-   <Router>
+   <Router onUpdate={() => window.scrollTo(0, 0)}>
         <Route path="/" component={ App }/>
     </Router>, document.getElementById('app')
 );

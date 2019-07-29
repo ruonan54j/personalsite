@@ -27,7 +27,7 @@ const Mhealth = () => {
                             <p className="text-proj-ind">
                                 mHealth is a dashboard for tracking your mental health. This project was built
                                 during a 24 hour hackathon. Test out the app
-                                <a href="https://mental-health-tracker.herokuapp.com/">here!</a>
+                                <a href="https://mental-health-tracker.herokuapp.com/">&nbsp;here!</a>
                             </p>
 
                         </div>
@@ -35,19 +35,18 @@ const Mhealth = () => {
                     </div>
 
                     <hr className="yellow-line"/>
-                    <h2 className="proj-ind-title">Interface</h2>
+                    <h2 className="proj-ind-title">About</h2>
                     <hr/>
                     <div className="row">
                         <p className="text-proj-ind">
-                            This web app was built using PHP and vanilla JS. It implements ClearDB (SQL) and
+                            This web app was built using PHP and Javascript. It uses a SQL database and
                             consists of the following features
                         </p>
                         <ol>
                             <li>User friendly survey to regularly assess mood and lifestyle</li>
                             <li>Goals platform to keep you on track</li>
                             <li>Visual graphs to see your progress</li>
-                            <li>
-                                Daily inspirational quotes from an online API</li>
+                            <li>Daily inspirational quotes</li>
                         </ol>
 
                     </div>

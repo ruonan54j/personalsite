@@ -22,7 +22,7 @@ const Model = () => {
 
     </div>
     <div className="col">
-      <h2>Overview</h2>
+     
       <p className="text-proj-ind">
         Besides programming, I also have a passion for 3D modelling. I was part of the UBC Rocket team in first year University and worked on a subteam to design the nosecone. We even added a mount for a Go Pro to film the launch!
       </p>
