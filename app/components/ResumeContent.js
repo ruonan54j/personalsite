@@ -111,10 +111,10 @@ class ResumeContent extends React.Component {
             <div className="border-container" id="skills">
                 <h1 className="resume-title">Technical Skills</h1>
                 <div className="resume-desc">
-                <p><strong>Programming Languages :</strong> 
-                Java, React, JavaScript/CSS/HTML, PHP, C/C++, Python, VBA, Ruby On Rails, Assembly, Verilog <br></br> <br></br>  
+                <p><strong>Programming Languages : </strong> 
+                Java, React, JavaScript/CSS/HTML, PHP, C++, Solidity, Python, VBA, Ruby On Rails, Assembly, Verilog <br></br> <br></br>  
                 <strong>Version Control :</strong> GitHub, SVN <br></br> <br></br>  <strong>
-                    Graphic Design Tools :</strong> SolidWorks, 3Ds Max, Photoshop</p>
+                    Graphic Design Tools :</strong> SolidWorks, 3Ds Max, Photoshop, Figma</p>
                 </div>
             </div>
 
@@ -123,7 +123,7 @@ class ResumeContent extends React.Component {
                 <div className="resume-desc">
                 <p>Develop responsive and dynamic websites for realtors <br></br> <br></br>  
                     Built a web based platform for realtors to manage their listings on (integrated with Webflow API) <br></br> <br></br> 
-                    Manage database and web hosting accross multiple platforms
+                    Manage databases and web hosting accross multiple platforms
                     </p>
                 </div>
             </div>
@@ -135,7 +135,7 @@ class ResumeContent extends React.Component {
                 <p><strong>Developed multiple support tools used within the Certification team </strong> <br></br> <br></br> 
                 Wrote scripts in Python and VBA to parse data and automate excel sheets <br></br> <br></br>  
                 Worked on C# automated testing script used for testing different sim cards on mobile hotspots <br></br> <br></br>  
-                Used Selenium to automate large quantity of file package uploads onto Web Portal
+                Used Selenium library to automate large quantity of file package uploads onto Web Portal
                 </p>
                 </div>
             </div>
@@ -150,7 +150,7 @@ class ResumeContent extends React.Component {
             <div className="border-container" id="teams2">
                 <h1 className="resume-title">UBC Rocket | Aerostructures Team</h1>
                 <div className="resume-desc">
-                <p>3D modelled nose cone designs and researched optimal fin specifications  <br></br> <br></br>  Conducted strength tests on 3D printed nose cone plate to test design</p>
+                <p>3D modelled nose cone designs and researched optimal fin specifications  <br></br> <br></br>  Conducted strength tests on 3D printed nose cone plate</p>
                 </div>
             </div>
 
@@ -158,7 +158,7 @@ class ResumeContent extends React.Component {
             <div className="border-container-last" id="involve">
                 <h1 className="resume-title">School Involvements</h1>
                 <div className="resume-desc">
-                <p><strong> IEEE</strong> | June 2018 - current | Social Media and Recruitment Executive <br></br> <br></br>  <strong> SUBC</strong> | July 2018 - current | Website Manager</p>
+                <p><strong> IEEE</strong> | June 2018 - current | Social Media and Recruitment Executive <br></br> <br></br>  <strong> SUBC</strong> | July 2018 - December 2018 | Website Manager</p>
                 </div>
             </div>
             </div>
